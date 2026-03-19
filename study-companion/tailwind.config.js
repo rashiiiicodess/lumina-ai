@@ -14,6 +14,17 @@ export default {
         warning: "#F59E0B",
         error: "#EF4444",
         info: "#3B82F6",
+
+        // ✅ FIXED: sidebar inside colors
+        sidebar: {
+          DEFAULT: 'hsl(var(--sidebar-background))',
+          foreground: 'hsl(var(--sidebar-foreground))',
+          primary: 'hsl(var(--sidebar-primary))',
+          'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
+          accent: 'hsl(var(--sidebar-accent))',
+          'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
+          border: 'hsl(var(--sidebar-border))',
+        },
       },
     },
   },

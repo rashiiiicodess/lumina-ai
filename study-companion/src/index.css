@@ -1,7 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+  --font-inter: 'Inter', sans-serif;
 
+  /* 🌞 LIGHT APP */
+  --background: 220 20% 97%;
+  --foreground: 228 10% 15%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 228 10% 15%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 228 10% 15%;
+
+  --primary: 220 16% 60%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 213 50% 89%;
+  --secondary-foreground: 228 10% 15%;
+
+  --muted: 210 12% 85%;
+  --muted-foreground: 200 8% 44%;
+
+  --accent: 213 50% 89%;
+  --accent-foreground: 228 10% 15%;
+
+  --border: 210 12% 85%;
+  --input: 210 12% 85%;
+  --ring: 220 16% 60%;
+
+  /* 🔥 DARK SIDEBAR (ALWAYS DARK) */
+  --sidebar-background: 228 12% 12%;
+  --sidebar-foreground: 210 20% 85%;
+
+  --sidebar-primary: 220 60% 60%;
+  --sidebar-primary-foreground: 0 0% 100%;
+
+  --sidebar-accent: 228 10% 18%;
+  --sidebar-accent-foreground: 210 20% 95%;
+
+  --sidebar-border: 228 10% 22%;
+
+  /* Status */
+  --success: 160 60% 45%;
+  --warning: 38 92% 50%;
+  --error: 0 84% 60%;
+}
 /* Global styles */
 body {
   background-color: #F8FAFC;
